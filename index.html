@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal academic and project portfolio website of Leffer Trochez." />
+  <title>Leffer Trochez | Personal Website</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="logo">Leffer Trochez</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Robotics · Control Systems · Sim2Real · ROS 2</p>
+          <h1>Leffer Trochez</h1>
+          <h2>Robotics researcher and engineer focused on control-oriented robotic systems.</h2>
+
+          <p class="hero-description">
+            I work on robotics, simulation, control systems, embedded platforms, and Sim2Real
+            frameworks for advanced robotic applications.
+          </p>
+
+          <div class="button-row">
+            <a class="btn primary" href="https://github.com/LefferTrochez" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Google Scholar</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Instagram</a>
+            <a class="btn" href="mailto:leffer050302@gmail.com">Email</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="assets/profile-placeholder.svg" alt="Profile photo placeholder" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="two-column">
+        <div>
+          <p>
+            I am an engineer and robotics researcher based in Bogotá, Colombia. My work focuses on
+            the development of robotic systems that integrate modeling, simulation, control,
+            sensing, embedded electronics, and real-world deployment.
+          </p>
+
+          <p>
+            My academic and technical interests include humanoid robotics, Sim2Real workflows,
+            ROS 2, MATLAB/Simulink, MuJoCo simulation, embedded systems, control systems,
+            and intelligent robotic platforms.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <h3>Current Focus</h3>
+          <ul>
+            <li>Sim2Real control frameworks for humanoid robots</li>
+            <li>ROS 2 and MuJoCo integration</li>
+            <li>MATLAB/Simulink-based robotic workflows</li>
+            <li>Embedded robotics and sensing systems</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section alt-section">
+      <div class="section-heading">
+        <p class="eyebrow">Education</p>
+        <h2>Academic Background</h2>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card">
+          <h3>M.Sc. in Electrical/Electronic Engineering</h3>
+          <p class="muted">Universidad de los Andes · Bogotá, Colombia</p>
+          <p>
+            Master's research focused on robotics, control systems, simulation, and Sim2Real
+            integration for advanced robotic platforms.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Engineering Background</h3>
+          <p class="muted">Universidad de los Andes · Bogotá, Colombia</p>
+          <p>
+            Academic formation in electronics, control, robotics, programming, embedded systems,
+            and engineering design.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2>Professional and Research Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <h3>Research Group Member</h3>
+          <p class="muted">GIAP Research Group · Universidad de los Andes</p>
+          <p>
+            Research activities related to robotics, control systems, intelligent systems,
+            and technology-based engineering projects.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <h3>Founder / Project Lead</h3>
+          <p class="muted">LF - Robotics</p>
+          <p>
+            Development of robotics and technology-based solutions, including mechanical design,
+            electronics, programming, control, simulation, and prototyping.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <h3>Teaching and Academic Support</h3>
+          <p class="muted">Universidad de los Andes</p>
+          <p>
+            Academic support in engineering courses related to robotics, electronics, and control
+            systems.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt-section">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected Projects</h2>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card project-card">
+          <h3>Sim2Real Control Framework for Unitree G1</h3>
+          <p>
+            A MATLAB/Simulink-based framework that connects MuJoCo simulation and ROS 2
+            deployment for the Unitree G1 humanoid robot.
+          </p>
+          <div class="tag-row">
+            <span>Simulink</span>
+            <span>MuJoCo</span>
+            <span>ROS 2</span>
+            <span>Unitree G1</span>
+          </div>
+          <div class="button-row small">
+            <a class="btn primary" href="https://leffertrochez.github.io/Sim2Real-Control-Framework-for-Unitree-G1-Simulink-ROS2-MuJoCo/" target="_blank" rel="noopener">Project Website</a>
+            <a class="btn" href="https://github.com/LefferTrochez/Sim2Real-Control-Framework-for-Unitree-G1-Simulink-ROS2-MuJoCo" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <h3>Electronic Update of a Differential Robot</h3>
+          <p>
+            Modernization of a robotic platform using ESP32, ESP32-CAM, ROS 2, sensors,
+            motor drivers, LiDAR, and embedded electronics.
+          </p>
+          <div class="tag-row">
+            <span>ESP32</span>
+            <span>ROS 2</span>
+            <span>micro-ROS</span>
+            <span>PCB</span>
+          </div>
+          <div class="button-row small">
+            <a class="btn" href="#" target="_blank" rel="noopener">Project Website</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <h3>Robotic Gong System</h3>
+          <p>
+            Robotic system for artistic sound exploration using motion mechanisms, actuators,
+            control electronics, and programmable interaction with a gong.
+          </p>
+          <div class="tag-row">
+            <span>Robotics</span>
+            <span>Actuators</span>
+            <span>Control</span>
+            <span>Design</span>
+          </div>
+          <div class="button-row small">
+            <a class="btn" href="#" target="_blank" rel="noopener">Project Website</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <h3>Educational Robotics and CubeSat Activities</h3>
+          <p>
+            Educational projects and workshops focused on robotics, embedded sensors,
+            electronics, programming, and STEM learning.
+          </p>
+          <div class="tag-row">
+            <span>Education</span>
+            <span>Arduino</span>
+            <span>Sensors</span>
+            <span>STEM</span>
+          </div>
+          <div class="button-row small">
+            <a class="btn" href="#" target="_blank" rel="noopener">Project Website</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Publications</p>
+        <h2>Publications, Posters and Technical Documents</h2>
+      </div>
+
+      <div class="publication-list">
+        <article class="publication-item">
+          <h3>Master's Thesis</h3>
+          <p class="muted">Universidad de los Andes</p>
+          <p>
+            Research work focused on a Sim2Real control framework for humanoid robotics using
+            MATLAB/Simulink, MuJoCo, and ROS 2.
+          </p>
+          <div class="button-row small">
+            <a class="btn" href="#" target="_blank" rel="noopener">PDF</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Repository</a>
+          </div>
+        </article>
+
+        <article class="publication-item">
+          <h3>Conference Papers and Posters</h3>
+          <p class="muted">Robotics, control systems, and Sim2Real research</p>
+          <p>
+            This section will include conference submissions, accepted papers, posters,
+            extended abstracts, and related academic material.
+          </p>
+          <div class="button-row small">
+            <a class="btn" href="#" target="_blank" rel="noopener">Paper</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Poster</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">DOI</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt-section">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical Skills and Languages</h2>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Robotics and Simulation</h3>
+          <p>ROS 2, micro-ROS, MuJoCo, Gazebo, Unitree G1, robot sensing, robotic platforms.</p>
+        </article>
+
+        <article class="card">
+          <h3>Programming and Tools</h3>
+          <p>Python, MATLAB, Simulink, C/C++, Arduino, Git, GitHub, LaTeX.</p>
+        </article>
+
+        <article class="card">
+          <h3>Electronics and Embedded Systems</h3>
+          <p>ESP32, sensors, actuators, PCB design, power systems, motor drivers, prototyping.</p>
+        </article>
+
+        <article class="card">
+          <h3>Languages</h3>
+          <p>Spanish: Native</p>
+          <p>English: Professional / academic working proficiency</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Contact</h2>
+      </div>
+
+      <p>
+        I am open to academic collaboration, research projects, robotics development,
+        and technology-based initiatives.
+      </p>
+
+      <div class="button-row center">
+        <a class="btn primary" href="mailto:leffer050302@gmail.com">Email</a>
+        <a class="btn" href="https://github.com/LefferTrochez" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="#" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Leffer Trochez. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
