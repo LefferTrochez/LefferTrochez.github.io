@@ -70,4 +70,4 @@ git push
 
 ## Note
 
-The design is intentionally simple, neutral, responsive, and professional.
+The design is intentionally simple, neutral, responsive, and professional, with a subtle blue-gray background accent.
