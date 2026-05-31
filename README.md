@@ -31,9 +31,12 @@ assets/
 - Updated GitHub, LinkedIn, Google Scholar, Instagram, and email links.
 - Updated the academic background section with B.Sc., M.Sc., and Ph.D. entries.
 - Removed LF - Robotics, the gong project, and the CubeSat project.
-- Kept project buttons only as `Project Website` buttons.
+- Added the MATLAB File Exchange button to the Sim2Real project card.
+- Kept project buttons focused on project-related external pages.
 - Added the CCAC 2025 conference paper.
 - Added the ICRA 2026 Vienna poster entry.
+- Added COBÓTICA 2025 competition participation in Monterrey, Mexico.
+- Increased the IELE logo size in the contact section by approximately 30% compared with v4.
 - Expanded technical skills with NVIDIA platforms, PCB design, and 3D modeling design.
 - Reworked the contact section with clickable logo/icon cards.
 
