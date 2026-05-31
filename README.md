@@ -22,7 +22,12 @@ assets/
 - Updated the hero topic to:
   `Robotics and Control Systems`.
 - Replaced the profile image path with:
-  `assets/Profile.jpg`.
+  `assets/Profile.jpg
+  Email.png
+  GoogleScholar.png
+  LinkedIn.png
+  ORCID.png
+  IELElogo.png`.
 - Updated GitHub, LinkedIn, Google Scholar, Instagram, and email links.
 - Updated the academic background section with B.Sc., M.Sc., and Ph.D. entries.
 - Removed LF - Robotics, the gong project, and the CubeSat project.

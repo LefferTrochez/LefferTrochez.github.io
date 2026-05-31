@@ -326,39 +326,37 @@ h3 {
   color: var(--text);
 }
 
-.social-grid {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.7rem;
-  justify-content: flex-start;
-  margin-top: 1.15rem;
+.contact-icons {
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+  display: block;
+  line-height: 1;
 }
 
-.social-link {
-  width: 34px;
-  height: 34px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border: 0;
-  background: transparent;
-  border-radius: 8px;
-  line-height: 0;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+.contact-icons a {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.social-link:hover {
-  transform: translateY(-2px);
-  opacity: 0.82;
-}
-
-.social-link img {
-  width: 34px;
-  height: 34px;
-  max-width: 34px;
-  max-height: 34px;
+.contact-icons img {
+  height: 30px !important;
+  width: auto !important;
+  max-height: 30px;
+  max-width: none;
+  display: inline-block;
+  vertical-align: middle;
   object-fit: contain;
+}
+
+.contact-logo {
+  margin-top: 1.6rem;
+  display: block;
+}
+
+.iele-logo {
+  width: min(450px, 100%);
+  height: auto;
   display: block;
 }
 
@@ -419,6 +417,10 @@ h3 {
 }
 
 @media (max-width: 520px) {
+  .iele-logo {
+    width: min(320px, 100%);
+  }
+
   .section {
     padding: 4rem 1rem;
   }
