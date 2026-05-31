@@ -18,7 +18,7 @@ assets/
 ## Main updates included
 
 - Updated the main academic title to:
-  `Electronic Engineer | M.Sc. in Electronic and Computer Engineering | Ph.D. Student in Engineering`.
+  `Ph.D. Student in Engineering`.
 - Updated the hero topic to:
   `Robotics and Control Systems`.
 - Replaced the profile image path with:
