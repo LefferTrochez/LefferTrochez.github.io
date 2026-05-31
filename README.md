@@ -1,6 +1,6 @@
-# Leffer Trochez Personal Website
+# Leffer Trochez Academic Website
 
-This is the first draft of a personal academic and professional portfolio website.
+Personal academic portfolio website for Leffer Trochez, designed for GitHub Pages.
 
 ## Files
 
@@ -9,58 +9,60 @@ index.html
 style.css
 script.js
 assets/
-  profile-placeholder.svg
+  Profile.jpg
+  Email.png
+  GoogleScholar.png
+  LinkedIn.png
 ```
+
+## Main updates included
+
+- Updated the main academic title to:
+  `Electronic Engineer | M.Sc. in Electronic and Computer Engineering | Ph.D. Student in Engineering`.
+- Updated the hero topic to:
+  `Robotics and Control Systems`.
+- Replaced the profile image path with:
+  `assets/Profile.jpg`.
+- Updated GitHub, LinkedIn, Google Scholar, Instagram, and email links.
+- Updated the academic background section with B.Sc., M.Sc., and Ph.D. entries.
+- Removed LF - Robotics, the gong project, and the CubeSat project.
+- Kept project buttons only as `Project Website` buttons.
+- Added the CCAC 2025 conference paper.
+- Added the ICRA 2026 Vienna poster entry.
+- Expanded technical skills with NVIDIA platforms, PCB design, and 3D modeling design.
+- Reworked the contact section with clickable logo/icon cards.
 
 ## How to use
 
-1. Upload these files to the root of the repository:
+1. Replace the current files in the root of your repository:
 
 ```text
 LefferTrochez.github.io
 ```
 
-2. Go to:
+2. Keep your images inside:
 
 ```text
-Settings → Pages
+assets/
 ```
 
-3. Select:
+3. Make sure the filenames match exactly, including uppercase letters:
 
 ```text
-Deploy from a branch
-main / root
+Profile.jpg
+Email.png
+GoogleScholar.png
+LinkedIn.png
 ```
 
-4. Replace the placeholder links in `index.html`:
+4. Commit and push:
 
-```text
-LinkedIn
-Google Scholar
-Instagram
-CV
-Project websites
-Project repositories
-Papers
-Posters
-DOIs
+```bash
+git add .
+git commit -m "Update academic website profile"
+git push
 ```
 
-5. Replace:
-
-```text
-assets/profile-placeholder.svg
-```
-
-with your real profile photo, for example:
-
-```text
-assets/profile.jpg
-```
-
-Then update the image path inside `index.html`.
-
-## Notes
+## Note
 
 The design is intentionally simple, neutral, responsive, and professional.

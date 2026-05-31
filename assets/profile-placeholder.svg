@@ -1,6 +1,0 @@
-<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="600" height="600" rx="300" fill="#F2F4F7"/>
-  <circle cx="300" cy="230" r="95" fill="#D0D5DD"/>
-  <path d="M140 510C160 405 220 355 300 355C380 355 440 405 460 510" fill="#D0D5DD"/>
-  <text x="300" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#667085">Replace with profile photo</text>
-</svg>
